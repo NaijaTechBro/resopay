@@ -1,0 +1,32 @@
+.footer {
+    background-color: #533E85;
+    height: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // max-width: 1000px;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0 20px;
+
+    & > .logo {
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+}
+
+.footer-text h2 {
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 15px;
+    font-weight: 200;
+}
+.footer-text p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+}
